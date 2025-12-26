@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 165px;
+    padding-right: 165px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(150, 127, 127);
+}
+header ul{
+    display: flex;
+    gap: 30px;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.contener{
+      display: flex;
+    justify-content: space-between;
+    padding-left: 165px;
+    padding-right: 165px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(150, 127, 127);
+    align-items: center;
+}
+.contener form input{
+    width: 450px;
+    height: 52px;
+    background-color: rgba(248, 248, 248, 1);
+}
