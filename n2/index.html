@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+     <header>
+        <ul>
+            <li><a href="">Do’konlarimiz</a></li>
+            <li><a href="">Biz haqimizda</a></li>
+            <li><a href="">Bog’lanish</a></li>
+        </ul>
+        <ul>
+            <li><a href="">Call center:</a></li>
+             <li><a href="">+998 94 656-22-22</a></li>
+        </ul>
+    </header>
+    <div class="contener">
+        <div class="logo">
+            <img src="img/Group.png" alt="">
+        </div>
+        <form>
+            <input type="search" placeholder=" 🔍 Mahsulotlarni qidirish" class="in">
+        </form>
+        <div class="register">
+             <select name="" id="">
+            <option value="en">Ingliz</option>
+             <option value="zh">Xitoy</option>
+             <option value="es">Ispan</option>
+             <option value="ru">Rus</option>
+             <option value="fr">Fransuz</option>
+
+           </select>
+
+
+            <i class="fa-solid fa-bag-shopping"></i>
+            <button>Ro'yxatdan o'tish</button>
+        </div>
+    </div>
+    <div class="kill1">
+        <div class="jil">
+            <div>
+                <img src="img/Group.png" alt="">
+            </div>
+            <div class="ikob">
+                <i class="fa-solid fa-bag-shopping"></i>
+            <div class="menu-icon">
+                <i class="fa-solid fa-bars" id="openBtn""></i>
+                    <div class="modal" id="modal">
+                       <div class="modal-box">
+                  <span class="close" id="closeBtn">&times;</span>
+
+                           <a href="#">Do‘konlarimiz</a>
+                        <a href="#">Biz haqimizda</a>
+                      <a href="#">Bog‘lanish</a>
+
+                         <button class="login">Ro‘yxatdan o‘tish</button>
+
+                          <p class="call">
+                           <a href="">
+                           call center<i class="fa-solid fa-phone"></i>+998 94 565-22-22
+                      </a>
+                     </p>
+                        </div>
+                       </div>
+                </div>
+            
+            </div>
+        </div>
+        <input type="text" placeholder="🔍  Mahsulotlarni qidirish">
+         <h3>Savatcha <span> <i class="fa-solid fa-arrow-right"></i> Buyurtmani rasmiylashtirish</span></h3>
+    </div>
+  
+    <div class="text">
+        <h2>SAVATCHA</h2>
+    </div>
+
+
+    <div class="section1">
+       <div class="contener10">
+        <div class="cart10">
+            <img src="img/Rectangle_39-removebg-preview.png" alt="">
+            <div>
+                <p>Oziq-ovqatlar</p>
+                <h4>“Kit-Kat” shokolad</h4>
+                <h2>18 000 uzs</h2>
+                 <div class="number">
+         <button onclick="minus()">−</button>
+            <input type="number" id="count" value="1" min="1" placeholder="1">
+             <button onclick="plus()">+</button>
+          </div>
+            </div>
+        </div>
+     </div>
+
+
+        <div class="contener10">
+        <div class="cart10">
+            <img src="img/Rectangle_32-removebg-preview.png" alt="">
+            <div>
+                <p>Oziq-ovqatlar</p>
+                <h4>Xorazm guruchi</h4>
+                <h2>18 000 uzs</h2>
+                 <div class="number">
+         <button onclick="minus()">−</button>
+            <input type="number" id="count" value="1" min="1" placeholder="1">
+             <button onclick="plus()">+</button>
+          </div>
+            </div>
+        </div>
+     </div>
+
+
+        <div class="contener10">
+        <div class="cart10">
+            <img src="img/Rectangle_41-removebg-preview.png" alt="">
+            <div>
+                <p>Oziq-ovqatlar</p>
+                <h4>Pepsi - 1,5 l</h4>
+                <h2>18 000 uzs</h2>
+                 <div class="number">
+         <button onclick="minus()">−</button>
+            <input type="number" id="count" value="1" min="1" placeholder="1">
+             <button onclick="plus()">+</button>
+          </div>
+            </div>
+        </div>
+     </div>
+
+    </div>
+ 
+ <div class="contener1">
+         <div class="box1">
+            <div class="cart">
+        <div class="car">
+            <img src="img/Rectangle_39-removebg-preview.png" alt="">
+            <div>
+                <p>Oziq-ovqatlar</p>
+                 <h3>“Kit-Kat” shokolad</h3>
+            </div>
+        </div>
+        <div class="number">
+         <button onclick="minus()">−</button>
+            <input type="number" id="count" value="1" min="1" placeholder="1">
+             <button onclick="plus()">+</button>
+          </div>
+          <div>
+       <h2>18 000 so’m</h2>
+         </div>
+              <div>
+          <button class="btn"><i class="fa-solid fa-x"></i></button>
+         </div>
+    </div>
+      <div class="cart">
+        <div class="car">
+            <img src="img/Rectangle_32-removebg-preview.png" alt="">
+            <div>
+                <p>Oziq-ovqatlar</p>
+                 <h3>Xorazm guruchi</h3>
+            </div>
+        </div>
+        <div class="number">
+         <button onclick="minus()">−</button>
+            <input type="number" id="count" value="1" min="1" placeholder="1">
+             <button onclick="plus()">+</button>
+          </div>
+          <div>
+       <h2>24 900 so’m</h2>
+         </div>
+              <div>
+          <button class="btn"><i class="fa-solid fa-x"></i></button>
+         </div>
+    </div>
+      <div class="cart">
+        <div class="car">
+            <img src="img/Rectangle_41-removebg-preview.png" alt="">
+            <div>
+                <p>Ichimliklar</p>
+                 <h3>Pepsi - 1,5 l</h3>
+            </div>
+        </div>
+        <div class="number">
+         <button onclick="minus()">−</button>
+            <input type="number" id="count" value="1" min="1" placeholder="1">
+             <button onclick="plus()">+</button>
+          </div>
+          <div>
+       <h2>12 000 so’m</h2>
+         </div>
+              <div>
+          <button class="btn"><i class="fa-solid fa-x"></i></button>
+         </div>
+    </div>
+     </div>
+
+
+    <div class="box2">
+     <table>
+        <tr>
+            <th class="lef" id="lili"><h2>Jami</h2></th>
+        </tr>
+        <tr>
+            <th class="lef">Mahsulotlar</th>
+            <th class="rig"><b>3 ta</b></th>
+        </tr>
+          <tr>
+            <th class="lef">Chegirma</th>
+            <th class="rig"><b>0 so'm</b></th>
+        </tr>
+          <tr>
+            <th class="lef">Jami summa:</th>
+            <th class="rig"><b>54 900</b></th>
+        </tr>
+     </table>
+     <button>Buyurtma berish</button>
+    </div>
+ </div>
+     <div class="bottom">
+        <div>
+            <div>
+                <img src="img/Group.png" alt="">
+            </div>
+            <i class="fa-brands fa-telegram"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+        </div>
+        <ul>
+            <h3>Inmart</h3>
+            <li class="vili"><a href="">Biz haqimizda</a></li>
+            <li><a href="">Vakansiyalar</a></li>
+            <li><a href="">Mahsulotlar</a></li>
+            <li><a href="">Hamkor bo’lish</a></li>
+        </ul>
+        <ul>
+            <h3>Xaridorga yordam</h3>
+            <li class="vili"><a href="">Biz qanday ishlaymiz</a></li>
+            <li><a href="">FAQ</a></li>
+            <li><a href="">To’lov tartibi</a></li>
+            <li><a href="">Yetkazib berish</a></li>
+        </ul>
+        <div class="end">
+            <h3>+998 99 896-66-66</h3>
+            <p>Ushbu qo’ng’iroq markazi orqali siz <br> o’zingizning qiziqtirgan savollarga <br>javob topishingiz mumkin.</p>
+        </div>
+    </div>
+</div>
+ <div class="bottom2">
+        <div>
+            <span class="spn">Barcha huquqlar himoyalangan</span>
+        </div>
+        <div class="end2">
+            <span class="spn">Ilovamizni yuklab oling</span>
+          <div class="end3">
+               <a href="" class="link">
+                    <i class="fa-brands fa-google-play"></i>
+                    <span>
+                        <p>GET IN ON</p>
+                        <h3>Googe Play</h3>
+                    </span>
+                 </a>
+                        <a href="" class="link" id="olim">
+                    <i class="fa-brands fa-apple"></i>
+                    <span>
+                        <p>Dowload on the</p>
+                        <h3>App Store</h3>
+                    </span>
+                 </a>
+          </div>
+        </div>
+ </div>
+
+ <div class="kill3">
+     <div class="bill">
+        <div>
+            <img src="img/Group.png" alt="">
+        </div>
+        <div class="el">
+            <i class="fa-brands fa-telegram"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+        </div>
+    </div>
+
+    <div class="bill2">
+        <ul>
+            <h3>Inmart</h3>
+            <li class="vili"><a href="">Biz haqimizda</a></li>
+            <li><a href="">Vakansiyalar</a></li>
+            <li><a href="">Mahsulotlar</a></li>
+            <li><a href="">Hamkor bo’lish</a></li>
+        </ul>
+        <ul>
+            <h3>Xaridorga yordam</h3>
+            <li class="vili"><a href="">Biz qanday ishlaymiz</a></li>
+            <li><a href="">FAQ</a></li>
+            <li><a href="">To’lov tartibi</a></li>
+            <li><a href="">Yetkazib berish</a></li>
+        </ul>
+    </div>
+
+    <div class="end10">
+        <h3>+998 99 896-66-66</h3>
+        <p>Ushbu qo’ng’iroq markazi orqali siz <br> o’zingizning qiziqtirgan savollarga <br>javob topishingiz mumkin.</p>
+    </div>
+    <div class="bill3">
+        <p>Ilovamizni yuklab oling</p>
+        <div class="nil">
+              <a href="" class="link">
+                    <i class="fa-brands fa-google-play"></i>
+                    <span>
+                        <p>GET IN ON</p>
+                        <h3>Googe Play</h3>
+                    </span>
+                </a>
+                <a href="" class="link">
+                    <i class="fa-brands fa-apple"></i>
+                    <span>
+                        <p>Dowload on the</p>
+                        <h3>App Store</h3>
+                    </span>
+                </a>
+        </div>
+        <span class="ol">Barcha huquqlar himoyalangan</span>
+    </div>
+   </div>
+
+</div>
+
+</body>
+<script src="script.js"></script>
+</html>

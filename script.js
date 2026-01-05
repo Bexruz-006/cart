@@ -1,16 +1,4 @@
-// MENU
-const menuList = document.querySelector(".menuList");
-if (menuList) {
-  menuList.style.maxHeight = "0px";
-}
 
-function toggleMenu() {
-  if (menuList.style.maxHeight === "0px") {
-    menuList.style.maxHeight = "300px";
-  } else {
-    menuList.style.maxHeight = "0px";
-  }
-}
 
 // SNOW
 const snowCount = 50;
@@ -24,7 +12,6 @@ for (let i = 0; i < snowCount; i++) {
   document.body.appendChild(snow);
 }
 
-// MODAL
 const modal = document.getElementById("modal");
 const closeModal = document.getElementById("closeModal");
 const openBtns = document.querySelectorAll(".openModal");
@@ -61,3 +48,19 @@ modal.addEventListener("click", (e) => {
       modalOverlay.style.display = 'none';
     }
   });
+
+
+openModal.onclick = () => {
+  modal.style.display = "flex";
+}
+
+closeModal.onclick = () => {
+  modal.style.display = "none";
+}
+
+modal.onclick = (e) => {
+  if(e.target === modal){
+    modal.style.display = "none";
+  }
+}
+

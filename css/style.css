@@ -596,6 +596,10 @@ padding-right: 10px;
 
 color: #ffffff;
 }
+.bottom i:hover{
+    opacity: 1;
+    transition: 0.6s;
+}
 
 .pic:hover{
     background-color: yellow;
