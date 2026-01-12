@@ -1,0 +1,341 @@
+.img-box img{
+    width: 100%;
+    margin-top: 30px;
+}
+.btn-primary{
+     background-color: white;
+     border-left: 0;
+     border-top: 0;
+     border-right: 0;
+     border-radius: 0;
+     color: #000;
+     border-color: #000;
+
+}
+.card-body h6 span{
+    font-size: 15px;
+    border-left: 1px solid black;
+    margin-left: 10px;
+    padding-left: 10px;
+    color: cadetblue;
+}
+.card{
+    border: 0;
+}
+.form-select{
+    width: 242px;
+    background-color: rgba(184, 142, 47, 1);
+    color: white;
+}
+.contener2{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 35px;
+}
+.contener3{
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #E8E8E8;
+    margin: 30px;
+}
+.box3-1{
+    width: 340px;
+    border-right: 1px solid #E8E8E8;
+    padding-left: 20px;
+     padding-top: 30px;
+}
+.box3-2{
+    width: 340px;
+    border-right: 1px solid #E8E8E8;
+    padding-left: 20px;
+     padding-top: 30px;
+}
+.box3-3{
+    width: 340px;
+    border-right: 1px solid #E8E8E8;
+    padding-left: 20px;
+     padding-top: 30px;
+}
+.box3-1 h3{
+    padding-top: 60px;
+}
+.til{
+    padding-top: 40px;
+}
+.til2{
+    padding-top: 98px;
+}
+.til3{
+    padding-top: 180px;
+}
+.btn button{
+    width: 215px;
+    height: 64px;
+    border: 0;
+    color: white;
+    background-color: rgba(184, 142, 47, 1);
+}
+.til4{
+    padding-top: 40px;
+}
+.contener2-1{
+display: flex;
+justify-content: space-between;
+padding-left: 110px;
+padding-right: 110px;
+
+background-color: rgba(250, 243, 234, 1);
+height: 270px;
+}
+.cart3 h3{
+ font-size: 20px; 
+ padding-left: 30px;  
+}
+.cart3 h3 span{
+ font-size: 17px; 
+ color: cadetblue;  
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+     margin-left: 165px;
+    margin-right: 165px;
+   margin-top: 167px;
+}
+.bottom ul li{
+    list-style: none;
+    line-height: 150%;
+}
+.bottom ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.bottom img{
+    width: 117px;
+    height: 42px;
+}
+
+.bottom{
+    margin-left: 100px;
+    margin-right: 200px;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+.bottom ul li{
+    list-style: none;
+    line-height: 4;
+}
+.bottom ul li a{
+    text-decoration: none;
+}
+.bottom form{
+    margin-top: 30px;
+}
+.bottom form input{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 200px;
+}
+.bottom form button{
+    background: none;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 100px;
+}
+.cart3:hover{
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+#bul{
+    margin-top: 20px;
+}
+#bul p{
+    margin-top: 30px;
+    color: rgba(159, 159, 159, 1);
+}
+.nav-link{
+    color: #000;
+}
+.botomer{
+    display: none;
+}
+.contener0{
+    display: none;
+}
+@media (max-width:600px){
+     #clim {
+        display: none !important;
+    }
+    .contener0{
+        display: block;
+    }
+            .contener0{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 70px;
+         padding-left: 25px;
+        padding-right: 25px;
+        width: 100%;
+        max-width: 600px;
+        position: sticky;
+        top: 0px;
+        background-color: #fff;
+        z-index: 999;
+    }
+
+     /* menu-icon */
+    .modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.7);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-box {
+  width: 90%;
+  max-width: 340px;
+ 
+  border-radius: 18px;
+  padding: 25px;
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+
+.modal-box a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  margin: 15px 0;
+  font-size: 18px;
+}
+
+.login {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.close {
+  position: absolute;
+  top: 0px;
+  right: 18px;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+    /* menu-icon */
+     .contener0 ul li{
+        list-style: none;
+    }
+    .icons{
+        display: flex;
+        gap: 50px;
+        margin-left: 0;
+        position: absolute;
+        left: 50px;
+    }
+    .icons li{
+        list-style: none;
+    }
+    .contener2{
+        display: flex;
+        flex-direction: column;
+        margin-left: 25px;
+    }
+    .contener3{
+        display: flex;
+        flex-direction: column;
+        margin-left: 25px;
+    }
+    .contener2-1{
+        display: flex;
+        flex-direction: column;
+        height: 570px;
+        padding-left: 20px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        margin-top: 30px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .cart3{
+        width: 250px;
+    }
+    .bottom{
+        display: none !important;
+    }
+    .botomer{
+        display: block;
+    }
+    .bottom2{
+        display: flex;
+        gap: 50px;
+        margin-top: 30px;
+        background-color: rgb(39, 29, 29);
+        width: 100%;
+        max-width: 100%;
+    }
+      .logo-img img{
+        width: 100px;
+    }
+    .bottom2 ul li{
+        list-style: none;
+        line-height: 2;
+    }
+    .bottom2 ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    .bottom2 ul li a::after{
+        content: '';
+        display: block;
+        background-color: #dc7311;
+        height: 2px;
+        margin-right: auto;
+        width: 0;
+    }
+    .box3-1{
+       width: 270px; 
+        border: 2px solid rgb(228, 26, 26);
+       border-radius: 10px;
+       margin-top: 20px;
+       text-align: center;
+    }
+      .box3-2{
+       width: 270px;
+        border: 2px solid rgb(228, 40, 40);
+       border-radius: 10px; 
+       margin-top: 20px;
+       text-align: center;
+    }
+      .box3-3{
+       width: 270px;
+       border: 2px solid rgb(228, 62, 62);
+       border-radius: 10px;
+       margin-top: 20px; 
+       text-align: center;
+    }
+   .box3-1:hover,
+.box3-2:hover,
+.box3-3:hover{
+  background-color: blue;
+  color: white;
+}
+
+    .card-img-top{
+        width: 250px;
+    }
+    
+}
